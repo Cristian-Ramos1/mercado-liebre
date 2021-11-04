@@ -1,0 +1,51 @@
+@media (min-width: 1200px){
+    .wrapper{
+        width:25%;
+        padding:10px;
+    }
+    .search-bar{
+        display: flex;
+        padding: 5px;
+        padding:50px;
+    }
+    .titulo{
+        display:none;
+    }
+    .producto:hover .titulo{
+        display:block;
+    }
+    .compra-cuotas{
+        width: 400px;
+    }
+    .search-bar{
+        width:400px;
+    }
+    .w-50{
+        width: 400px;
+    }
+    .producto .truck-icon{
+        transition: transform 0.5s
+    }
+    .producto:hover .truck-icon{
+        transform: rotate(-90deg);
+    }
+    .producto:hover{
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+    .orden-footer{
+        display:flex;
+        margin-top:30px;
+    }
+    .credit-card:hover{
+        color: blue;
+    }
+    .em-gift:hover{
+        color: blue;
+    }
+    .user-shield:hover{
+        color: blue;
+    }
+    .copyright{
+        margin-top: 25px;
+    }
+}
